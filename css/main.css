@@ -7,9 +7,13 @@
 
 header {
     width: 100%;
-    height: 60px;
-    background-color: rgb(66, 59, 59);
 }
+.nav-item:hover {
+    border: 1px solid rgba(206, 216, 230, 0.616);
+    background: rgba(206, 216, 230, 0.616);
+    cursor: pointer;
+}
+/*
 .container-header {
     width: 100%;
     max-width: 1200px;
@@ -40,7 +44,7 @@ header {
 .icon-menu:hover {
     background: rgba(110, 146, 180, 0.623);
     cursor: pointer;
-}
+}*/
  /*career Zone*/
 .container-career{
     width: 100%;
@@ -79,14 +83,14 @@ header {
 }
 .content h2 {
     margin-top: 30%;
-    font-size: 20px;
+    font-size: 40px;
     font-family: 'Charmonman', cursive;
     text-align: center;
 }
-p {
-    margin-top: 50%;
+.content p {
+    margin-top: 60%;
     padding-top: 30%;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Charmonman', cursive;
     text-align: center;
 }
@@ -98,4 +102,36 @@ p {
         font-family: 'Charmonman', cursive;
         text-align: center;
     }
+}
+
+#about-me {
+    width: 100%;
+    height: 20%;
+    background: rgb(12, 12, 12);
+    text-align: center;
+    margin: auto;
+}
+#about-me h2 {
+    font-family: 'Charmonman', cursive;
+    font-size: 40px;;
+    color: rgba(192, 192, 223, 0.808);
+    margin: auto;
+}
+#about-me h3 {
+    font-family: 'Charmonman', cursive;
+    font-size: 25px;;
+    color: rgba(192, 192, 223, 0.808);
+}
+#about-me h4, #about-me button {
+    font-family: 'Charmonman', cursive;
+    font-size: 18px;;
+    color: rgba(79, 79, 161, 0.808);
+}
+.card-body {
+    font-size: 14px;
+    color: gray;
+}
+#about-me p {
+    font-size: 16px;
+    color: gray;
 }
