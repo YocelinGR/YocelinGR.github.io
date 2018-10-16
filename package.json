@@ -17,7 +17,6 @@
     "jest": "^23.6.0"
   },
   "scripts": {
-    "test": "jest --coverage",
-    "scripts": { "start" : "bar ./index.html" } 
+    "test": "jest --coverage"
   }
 }
