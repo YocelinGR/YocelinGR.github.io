@@ -18,6 +18,6 @@
   },
   "scripts": {
     "test": "jest --coverage",
-    "start": "javascript-scripts start"
+    "scripts": { "start" : "bar ./index.html" } }
   }
 }
