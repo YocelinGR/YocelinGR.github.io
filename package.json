@@ -17,6 +17,8 @@
     "jest": "^23.6.0"
   },
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "postinstall": "bower install && grunt build",
+    "start": "nf start"
   }
 }
