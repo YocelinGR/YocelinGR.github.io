@@ -96,9 +96,9 @@ header {
 }
 
 @media screen and (max-width: 425px){
-    .content h2, p {
-        margin-top: 60%;
-        font-size: 20px;
+    .content h2 {
+        margin-top: 150%;
+        font-size: 18px;
         font-family: 'Charmonman', cursive;
         text-align: center;
     }
@@ -139,7 +139,7 @@ header {
 }
 .img-hard-skills{
     width: 80%;
-    height: 300px;
+    height: 150px;
     background-image: url(../assets/womenTech.jpg);
     background-size: 220%;
     animation: hard 8s infinite linear alternate;
@@ -148,7 +148,7 @@ header {
 }
 .img-soft-skills{
     width: 80%;
-    height: 300px;
+    height: 150px;
     background-image: url(../assets/womenUmbrella.jpg);
     background-size: 150%;
     animation: hard 8s infinite linear alternate;
@@ -185,4 +185,14 @@ header {
 } 
 .adjust-size {
     width: 300px;
+}
+.carouselExampleIndicators {
+    width: 60%;
+    margin: auto;
+}
+.carousel-item img {
+    height: 180px;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 25px;
 }
