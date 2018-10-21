@@ -111,7 +111,7 @@ header {
     text-align: center;
     margin: auto;
 }
-#about-me h2, #my-skills h2, #my-projects h2 {
+#about-me h2, #my-skills h2, #my-projects h2 , #contact-me h2{
     font-family: 'Charmonman', cursive;
     padding-top: 10px;
     font-size: 40px;;
@@ -170,13 +170,13 @@ header {
     background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.856), rgba(148, 190, 230, 0.5));
     border-radius:150px;
 }
-#my-skills {
+#my-skills, #contact-me{
     width: 100%;
     background: rgba(176, 182, 181, 0.74);
     text-align: center;
     margin: auto;
 }
-#my-skills h2 {
+#my-skills h2 , #contact-me h2{
     margin-top: 4%;
     margin-bottom: 4%;
     text-align: center;
@@ -274,4 +274,38 @@ header {
     margin-right: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+.swiper-slide .imgBox3d {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.swiper-slide .imgBox3d img {
+    width: 100%;
+}
+.swiper-slide .details-3d {
+    box-sizing: border-box;
+    padding: 20px;
+}
+.swiper-slide .details-3d h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-align: center;
+    line-height: 0;
+}
+#contact-me .col-md-6 {
+    display: inline-block;
 }
