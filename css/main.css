@@ -191,8 +191,15 @@ header {
     margin: auto;
 }
 .carousel-item img {
-    height: 180px;
+    height: 200px;
     margin: auto;
     padding-bottom: 20px;
     padding-top: 25px;
+}
+
+#my-projects {
+    width: 100%;
+    background: rgba(110, 114, 114, 0.74);
+    text-align: center;
+    margin: auto;
 }

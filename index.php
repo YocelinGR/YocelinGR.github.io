@@ -228,6 +228,32 @@
             </div>
         </div>
     </section>
+    <!--Section of my projects-->
+    <section id = "my-projects">
+        <div class="container">
+            <div class="row">
+                <h1>Lo que he hecho</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="background: pink;">
+                    <h4>DataDasboard</h4>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12" style="background: red;">
+                            <h1>quesobi</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col md-12" style="background: salmon;">
+                            <h1>qenobi</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!--Scripts-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
