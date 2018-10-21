@@ -111,10 +111,11 @@ header {
     text-align: center;
     margin: auto;
 }
-#about-me h2, #my-skills h2 {
+#about-me h2, #my-skills h2, #my-projects h2 {
     font-family: 'Charmonman', cursive;
+    padding-top: 10px;
     font-size: 40px;;
-    color: rgba(192, 192, 223, 0.808);
+    color: rgba(209, 209, 228, 0.808);
     margin: auto;
 }
 #about-me h3, #my-skills h3 {
@@ -171,7 +172,7 @@ header {
 }
 #my-skills {
     width: 100%;
-    background: rgba(186, 235, 231, 0.74);
+    background: rgba(176, 182, 181, 0.74);
     text-align: center;
     margin: auto;
 }
@@ -179,6 +180,8 @@ header {
     margin-top: 4%;
     margin-bottom: 4%;
     text-align: center;
+    color: rgba(93, 149, 202, 0.945)
+
 }
 .img-hard-skills, .img-soft-skills {
     margin: auto;
@@ -198,67 +201,77 @@ header {
 }
 
 #my-projects {
-    background: rgba(174, 190, 190, 0.74);
+    background: rgb(12, 12, 12);
+    height: 60%;
 }
-.container-projects{
+#my-projects h2 {
+    margin-top: 20px;
+}
+.container-project {
     width: 100%;
-    min-height: 700px;
+    margin: 50px auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.container-projects .box-project {
+.container-project .box {
     position: relative;
-    /*height: 50px;
-    background: rgba(206, 216, 230, 0.616);*/
-    margin: 10px;
+    width: 400px;
+    height: 400px;
+    margin: 14px;
     box-sizing: border-box;
-    display: inline-block;
+    display: block;
+    border-collapse: collapse;
 }
-.container-projects .box-project .img-project {
-    position:relative;
+.container-project .box .imgBox {
+    position: relative;
     overflow: hidden;
 }
-.container-projects .box-project img {
-    max-width: 40%;
-    transition: transform 2s;
+.container-project .box .imgBox img {
+    transition: trasform 2s;
+    max-width: 400px;
+    max-height: 400px;
 }
-.container-projects .box-project:hover .img-project img {
+.container-project .box:hover .imgBox img {
     transform: scale(1.2);
 }
-
-.container-projects .box-project .project-hover {
+.container-project .box .details {
     position: absolute;
     top: 10px;
-    left: 10px;
     bottom: 10px;
+    left: 10px;
     right: 10px;
-    background: rgb(0, 0, 0, 0.8);
+    background: rgba(0,0,0,.8);
     transform: scaleY(0);
-    transition: transform 0.5s;
+    transition: transform 0.8s;
 }
-.container-projects .box-project:hover .project-hover {
+.container-project .box:hover .details {
     transform: scaleY(1);
 }
-.container-projects .box-project .project-hover .project-content {
+.container-project .box .details .content-box{
     position: absolute;
-    top: 60%;
+    top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     color: white;
+    font-size: 12px;
 }
-.container-projects .box-project .project-hover .project-content h4 {
-    margin: 0;
-    padding: 0;
-    font-size: 20px;
-    color: rgba(79, 79, 161, 0.808);
-}
-.container-projects .box-project .project-hover .project-content p {
+.container-project .box .details .content-box h4 {
     margin: 10px 0 0;
     padding: 0;
+    font-size: 15px;
+    color: rgba(222, 222, 243, 0.616);
 }
-.container-projects .box-project .project-hover .project-content i {
+.container-project .box .details .content-box i {
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.container-project .box .details .content-box a {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
