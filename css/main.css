@@ -337,13 +337,17 @@ header {
 }
 .social-media ul {
     position: relative;
-    padding-top: 30vh;
-    padding-left: 25%;
+    padding-top: 20vh;
+    padding-left: 12%;
     display: flex;
     justify-content: center;
 }
 
 @media screen and (min-width: 993px){
+    .social-media ul {
+        padding-top: 15vh;
+        padding-left: 12%;
+    }
     .social-media ul li {
         position: relative;
         list-style: none;
@@ -387,8 +391,6 @@ header {
         opacity: 0.2;
     }
 }
-
-@media screen and (max-width: 992px){
     .social-media ul li {
         position: relative;
         list-style: none;
@@ -431,4 +433,3 @@ header {
         transform: translate(0px,-0px);
         opacity: 0.2;
     }
-}
