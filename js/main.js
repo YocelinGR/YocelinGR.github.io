@@ -25,3 +25,51 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+const experiencia = document.getElementById('experiencia');
+experiencia.addEventListener('click', (event) =>{
+        swal({
+            title: "C5 CDMX",
+            text: "Participé en la mejora de acceso a Internet por medio de Servidores Proxy y asistí el monitoreo de Red fija y móvil",
+            button: "Siguiente",
+        })
+            .then((value) => {
+        swal({
+            title: "CReI Azcapotzalco",
+            text: "Desarrollé proyectos enfocados a resultados en los que adquirí la habilidad del trabajo en equipo, gestión de proyectos y liderazgo.",
+            button: "Gracias por ver",
+        });
+        });
+});
+
+const participaciones = document.getElementById('participaciones');
+participaciones.addEventListener('click', (event) =>{
+        swal({
+            title: "Citi Banamex Hack",
+            text: "Agosto 2018. Proyecto: EasyBoard.",
+            button: "Siguiente",
+        })
+            .then((value) => {
+        swal({
+            title: "BBVA Hackathon",
+            text: "Septiembre 2018. Proyecto: BPay, Pago con QR.",
+            button: "Gracias por ver",
+        });
+        });
+});
+
+const estudios = document.getElementById('estudios');
+estudios.addEventListener('click', (event) =>{
+        swal({
+            title: "Front End Developer",
+            text: "Mayo - Diciembre 2018 - Laboratoria",
+            button: "Siguiente",
+        })
+            .then((value) => {
+        swal({
+            title: "Licenciatura en Ingeniería en Comunicaciones y Electrónica",
+            text: "Agosto 2013 a Diciembre 2017 - ESIME Zacatenco, Instituto Politécnico Nacional",
+            button: "Gracias por ver",
+        });
+        });
+});
