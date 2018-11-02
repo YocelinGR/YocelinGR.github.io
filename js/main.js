@@ -73,3 +73,35 @@ estudios.addEventListener('click', (event) =>{
         });
         });
 });
+
+/*
+/// Sending email
+
+const nodemailer = require('nodemailer');
+const xoauth2 = require('xoauth2');
+
+let transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+        xoauth2: xoauth2.createXOAuth2Generator ({
+            user: 'gr.yocelin@gmail.com',
+            clientId: '902575927029-g11flidh5a7avkpeuf2kmr2th0ofekdb.apps.googleusercontent.com',
+            clientSecret: 's4qocHTPEhcuOADLd-Q9pGsM',
+            refreshToken: '1/sRPcgqN8GxBPaqnLnYZmhc-ww56rzWCUVG3CuoehqMU'
+        })
+    }
+});
+
+let mailOptions = {
+    from: 'Yocelin <garciaromero.yocelin@gmail.com>',
+    to: 'garcia_romero.y@hotmail.com',
+    subject:'Nodemailer test',
+    text: 'Hello world'
+}
+transporter.sendMail(mailOptions, (err,res) => {
+    if(err) {
+        console.log('Error');
+    } else {
+        console.log('Success');
+    }
+})*/
