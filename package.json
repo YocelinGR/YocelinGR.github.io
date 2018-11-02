@@ -20,5 +20,9 @@
     "test": "jest --coverage",
     "postinstall": "bower install && grunt build",
     "start": "nf start"
+  },
+  "dependencies": {
+    "nodemailer": "^4.6.8",
+    "xoauth2": "^1.2.0"
   }
 }
