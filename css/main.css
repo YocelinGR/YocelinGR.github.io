@@ -102,13 +102,13 @@ header {
     color: rgba(206, 216, 230, 0.616);
     margin: auto;
 }
-#about-me h3, #my-skills h3 {
+#about-me h3 {
     font-size: 22px;;
     color: rgba(206, 216, 230, 0.616);
     margin-bottom: 10%;
     margin-top: 10%;
 }
-#my-skills h3, #about-me button {
+#about-me button {
     font-size: 17px;
     color: rgba(0, 0, 0, 0.856);
 }
@@ -171,7 +171,12 @@ header {
     margin-bottom: 4%;
     text-align: center;
     color: rgba(0, 0, 0, 0.856);
-
+}
+#my-skills h3 {
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.856);
+    justify-content: center;
+    padding-left: 50%;
 }
 .img-hard-skills, .img-soft-skills {
     margin: auto;
@@ -179,11 +184,10 @@ header {
 .adjust-size {
     width: 300px;
 }
-.carouselExampleIndicators {
-    width: 60%;
-    margin: auto;
+.hard-skills {
+    display: block;
 }
-.carousel-item img {
+.carousel-inner img {
     height: 12em;
     width: 9em;
     margin: auto;
