@@ -1,8 +1,3 @@
-/*
-Gris: #22353c
-Perla: #e7e3e2
-vino: #3d272a
-*/
 * {
     margin: 0;
     padding: 0;
@@ -352,4 +347,41 @@ header {
         margin: auto;
         padding-top: 30px;
     }
+}
+#contact-me p , #contact-me a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    color: rgb(0, 0, 0, 0.856);
+    text-align: center;
+}
+#contact-me {
+    background: rgba(#e7e3e2);
+}
+.nav-item ul li {
+    display: inline-block;
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    background: rgba(206, 216, 230, 0.616);
+    justify-content: center;
+}
+.nav-item ul li span {
+    display: inline-block;
+    border-radius: 8px;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.856);
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px !important;
+}
+.nav-item ul li:hover span:nth-child(1){
+    transform: translate(0px,-0px);
+    opacity: 0.2;
 }
