@@ -139,7 +139,8 @@ header {
     font-size: 19px;
     color: rgba(0, 0, 0, 0.856);
     justify-content: center;
-    padding-left: 40%;
+    margin: auto;
+    /*padding-left: 40%;*/
 } 
 .adjust-size {
     width: 300px;
@@ -182,7 +183,7 @@ header {
     position: relative;
     width: 400px;
     height: 400px;
-    margin: 14px;
+    margin: 14px auto;
     box-sizing: border-box;
     display: block;
     border-collapse: collapse;
@@ -192,7 +193,7 @@ header {
         position: relative;
         width: 310px;
         height: 400px;
-        margin: 14px;
+        margin: 14px auto;
         box-sizing: border-box;
         display: block;
         border-collapse: collapse;
