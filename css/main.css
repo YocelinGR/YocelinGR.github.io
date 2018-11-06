@@ -95,7 +95,7 @@ header {
     margin: auto;
     vertical-align: middle;
 }
-#about-me h2, #my-skills h2, #my-projects h2 , #contact-me h2{
+#about-me h2, #my-skills h2, #my-projects h2 , #expretise h2{
     font-family: 'Charmonman', cursive;
     padding-top: 10px;
     font-size: 40px;;
@@ -128,13 +128,13 @@ header {
     font-size: 16px;
     color: gray;
 }
-#my-skills, #contact-me{
+#my-skills, #expretise{
     width: 100%;
     background: rgba(206, 216, 230, 0.616);
     text-align: center;
     margin: auto;
 }
-#my-skills h2 , #contact-me h2{
+#my-skills h2 , #expretise h2{
     margin-top: 4%;
     margin-bottom: 4%;
     text-align: center;
@@ -292,7 +292,7 @@ header {
     text-align: center;
     line-height: 0;
 }
-#contact-me .col-md-6 {
+#expretise .col-md-6 {
     display: inline-block;
 }
 
@@ -301,124 +301,55 @@ header {
         justify-content: center;
     }
 }
-.swiper-slide .details-3d h3{
+.slide .details-3d h3{
     font-family: 'Raleway', sans-serif;
     font-size: 1.5em;
     color: rgb(206, 216, 230, 0.616);
 }
-.swiper-wrapper {
-    margin-bottom: 25px;
-}
-.swiper-slide .details-3d {
+.imgBox3d .details-3d{
     padding: 0;
-}
-.social-media {
     margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.social-media ul {
-    position: relative;
-    padding-top: 20vh;
-    padding-left: 12%;
-    display: flex;
-    justify-content: center;
-}
-.social-media h3, .experience h3 {
+ .experience h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
     align-content: center;
     justify-content: center;
     margin: auto;
+    padding-bottom: 10px;
 }
-@media screen and (min-width: 993px){
-    .social-media ul {
-        padding-top: 15vh;
-        padding-left: 12%;
+.slide .imgBox3d {
+    margin: 20px;
+    height: 250px;
+}
+.slide .imgBox3d{
+    width: 40%;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 30px;
+}
+.slide {
+    display: inline-flex;
+    margin-bottom: 40px;
+}
+
+.imgBox3d .details-3d{
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 10px;
+}
+@media screen and (max-width: 767px){
+    .slide {
+        display: inline-block;
     }
-    .social-media ul li {
-        position: relative;
-        list-style: none;
-        width: 60px;
-        height: 60px;
-        margin: 0 30px;
-        transform: rotate(-30deg) skew(25deg);
-        background: rgba(206, 216, 230, 0.616);
-    }
-    .social-media ul li span {
-        position: absolute;
-        top:0;
-        left: 0;
+    .slide .imgBox3d{
         width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.856);
-        transition: 0.5s;
-        display: flex;
-        align-items: center;
+        align-content: center;
         justify-content: center;
-        color: #fff;
-        font-size: 35px !important;
-    }
-    .social-media ul li:hover span:nth-child(5){
-        transform: translate(40px,-40px);
-        opacity: 1;
-    }.social-media ul li:hover span:nth-child(4){
-        transform: translate(30px,-30px);
-        opacity: 0.8;
-    }
-    .social-media ul li:hover span:nth-child(3){
-        transform: translate(20px,-20px);
-        opacity: 0.6;
-    }
-    .social-media ul li:hover span:nth-child(2){
-        transform: translate(10px,-10px);
-        opacity: 0.4;
-    }
-    .social-media ul li:hover span:nth-child(1){
-        transform: translate(0px,-0px);
-        opacity: 0.2;
+        margin: auto;
+        padding-top: 30px;
     }
 }
-    .social-media ul li {
-        position: relative;
-        list-style: none;
-        width: 40px;
-        height: 40px;
-        margin: 0 15px;
-        transform: rotate(-30deg) skew(25deg);
-        background: rgba(206, 216, 230, 0.616);
-    }
-    .social-media ul li span {
-        position: absolute;
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.856);
-        transition: 0.5s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #fff;
-        font-size: 20px !important;
-    }
-    .social-media ul li:hover span:nth-child(5){
-        transform: translate(40px,-40px);
-        opacity: 1;
-    }.social-media ul li:hover span:nth-child(4){
-        transform: translate(30px,-30px);
-        opacity: 0.8;
-    }
-    .social-media ul li:hover span:nth-child(3){
-        transform: translate(20px,-20px);
-        opacity: 0.6;
-    }
-    .social-media ul li:hover span:nth-child(2){
-        transform: translate(10px,-10px);
-        opacity: 0.4;
-    }
-    .social-media ul li:hover span:nth-child(1){
-        transform: translate(0px,-0px);
-        opacity: 0.2;
-    }
