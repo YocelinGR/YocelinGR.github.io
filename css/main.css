@@ -94,12 +94,12 @@ header {
     font-family: 'Charmonman', cursive;
     padding-top: 10px;
     font-size: 40px;;
-    color: rgba(206, 216, 230, 0.616);
+    color: rgba(239, 242, 245, 0.616);
     margin: auto;
 }
 #about-me h3 {
     font-size: 22px;;
-    color: rgba(206, 216, 230, 0.616);
+    color: rgba(255,255,255,255);
     margin-bottom: 10%;
     margin-top: 10%;
 }
@@ -109,7 +109,7 @@ header {
 }
 #about-me h4,  {
     font-size: 18px;
-    color: rgba(206, 216, 230, 0.616);
+    color: rgba(239, 242, 245, 0.616);
 }
 #about-me img {
     padding-top: 14px;
@@ -117,11 +117,11 @@ header {
 }
 .card-body {
     font-size: 14px;
-    color: gray;
+    color: rgb(0, 0, 0, 0.856);
 }
 #about-me p {
     font-size: 16px;
-    color: gray;
+    color: rgba(255,255,255,255);
 }
 #my-skills, #expretise{
     width: 100%;
