@@ -1,22 +1,16 @@
-/*
-Gris: #22353c
-Perla: #e7e3e2
-vino: #3d272a
-*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-    vertical-align: middle:
 }
 
 header {
     width: 100%;
 }
 .nav-item:hover {
-    border: 1px solid rgb(#e7e3e2);
-    background: rgba(#e7e3e2);
+    border: 1px solid rgba(206, 216, 230, 0.616);
+    background: rgba(206, 216, 230, 0.616);
     cursor: pointer;
 }
  /*career Zone*/
@@ -55,7 +49,7 @@ header {
     color: rgba(206, 216, 230, 0.616);
     text-align: center;
 }
-.content h1 {
+.content h2 {
     margin-top: 30%;
     font-size: 40px;
     font-family: 'Charmonman', cursive;
@@ -63,7 +57,7 @@ header {
     color: rgba(206, 216, 230, 0.616);
 }
 @media screen and (max-width: 630px){
-    .content h1 {
+    .content h2 {
         margin-top: 50%;
         font-size: 20px;
         font-family: 'Charmonman', cursive;
@@ -79,7 +73,7 @@ header {
 }
 
 @media screen and (max-width: 425px){
-    .content h1 {
+    .content h2 {
         margin-top: 150%;
         font-size: 18px;
         font-family: 'Charmonman', cursive;
@@ -93,7 +87,6 @@ header {
     background: rgb(0, 0, 0, 0.856);
     text-align: center;
     margin: auto;
-    vertical-align: middle;
 }
 #about-me h2, #my-skills h2, #my-projects h2 , #contact-me h2{
     font-family: 'Charmonman', cursive;
@@ -104,21 +97,13 @@ header {
 }
 #about-me h3, #my-skills h3 {
     font-size: 22px;;
-    color: rgba(206, 216, 230, 0.616);
+    color: rgba(206, 216, 230, 0.616)
     margin-bottom: 10%;
     margin-top: 10%;
 }
-#my-skills h3, #about-me button {
-    font-size: 17px;
-    color: rgba(0, 0, 0, 0.856);
-}
-#about-me h4,  {
-    font-size: 18px;
+#about-me h4, #about-me button {
+    font-size: 18px;;
     color: rgba(206, 216, 230, 0.616);
-}
-#about-me img {
-    padding-top: 14px;
-    border-radius: 50px 50px 25px 25px;
 }
 .card-body {
     font-size: 14px;
@@ -162,7 +147,7 @@ header {
 }
 #my-skills, #contact-me{
     width: 100%;
-    background: rgba(206, 216, 230, 0.616);
+    background: rgba(92, 93, 94, 0.692);
     text-align: center;
     margin: auto;
 }
@@ -170,7 +155,7 @@ header {
     margin-top: 4%;
     margin-bottom: 4%;
     text-align: center;
-    color: rgba(0, 0, 0, 0.856);
+    color: rgba(206, 216, 230, 0.616);
 
 }
 .img-hard-skills, .img-soft-skills {
