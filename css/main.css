@@ -151,17 +151,18 @@ header {
     margin-left: 30px;
 }
 .carousel-inner img {
-    height: 12em;
-    width: 9em;
+    height: 144px;
+    width: 172px;
     margin: auto;
     padding-bottom: 20px;
-    padding-top: calc (1 / (16 / 9) * 100% );
 }
 .node {
-    width: 93%;
+    height: 144px !important;
+    width: 172px !important;
 }
 .github {
-    width: 86%;
+    height: 144px !important;
+    width: 172px !important;
 }
 #my-projects {
     background: rgb(0, 0, 0, 0.856);
@@ -346,6 +347,10 @@ header {
         margin: auto;
         padding-top: 30px;
     }
+}
+.imgBox3d img {
+    width: 322px;
+    height: 198px;
 }
 #contact-me p , #contact-me a{
     font-family: 'Raleway', sans-serif;
