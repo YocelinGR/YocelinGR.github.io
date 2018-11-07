@@ -349,8 +349,9 @@ header {
     }
 }
 .imgBox3d img {
-    width: 320px;
+    width: 100%;
     height: 198px;
+    
 }
 #contact-me p , #contact-me a{
     font-family: 'Raleway', sans-serif;
