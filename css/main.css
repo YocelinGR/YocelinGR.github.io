@@ -155,7 +155,7 @@ header {
     width: 9em;
     margin: auto;
     padding-bottom: 20px;
-    padding-top: 25px;
+    padding-top: calc (1 / (16 / 9) * 100% );
 }
 .node {
     height: 11.5em !important;
