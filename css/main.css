@@ -158,12 +158,10 @@ header {
     padding-top: calc (1 / (16 / 9) * 100% );
 }
 .node {
-    height: 11.5em !important;
-    width: 9.5em !important;
+    width: 93%;
 }
 .github {
-    height: 10.5em !important;
-    width: 8em !important;
+    width: 86%;
 }
 #my-projects {
     background: rgb(0, 0, 0, 0.856);
