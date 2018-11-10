@@ -25,21 +25,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-
-const email = document.getElementById('go-email');
-email.addEventListener('click', (event) =>{
-        swal({
-            title: "Correo Electrónico",
-            text: "garcia_romero.y@hotmail.com",
-            button: "Escribeme",
-        });
-});
-
-const celular = document.getElementById('go-phone');
-celular.addEventListener('click', (event) =>{
-        swal({
-            title: "Télefono celular",
-            text: "5527258173",
-            button: "Escribeme",
-        });
-});
