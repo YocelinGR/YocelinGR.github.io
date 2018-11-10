@@ -265,43 +265,53 @@ header {
         justify-content: center;
     }
 }
-
-.experience h3 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+#expertise {
+    padding-bottom: 15px;
+}
+#expretise h2 {
+    padding: 0;
+}
+.imgBox3d img {
+    max-height: 30vh;
     align-content: center;
     justify-content: center;
     margin: auto;
-    padding-bottom: 10px;
-}
-.slide {
-    display: inline-block;
-}
-.imgBox3d img {
-    max-height: 20vh;
-    justify-content: center;
     background-size: cover; 
     padding: 10px;
+    padding-left: 0;
+    
 }
-#contact-me p , #contact-me a{
+.imgBox3d a {
+    width: 60%;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+#contact-me p , #contact-me h3{
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
     color: rgb(0, 0, 0, 0.856);
     text-align: center;
+    padding-top: 5px;
 }
 #contact-me {
-    background: rgba(#e7e3e2);
+    background: rgba(#f8f9fa) !important;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
 }
-.nav-item ul li {
+.social-item ul li {
     display: inline-block;
     list-style: none;
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     margin: 0 5px;
     background: rgba(206, 216, 230, 0.616);
     justify-content: center;
 }
-.nav-item ul li span {
+.social-item ul li span {
     display: inline-block;
     border-radius: 8px;
     top:0;
@@ -314,9 +324,9 @@ header {
     align-items: center;
     justify-content: center;
     color: #fff;
-    font-size: 20px !important;
+    font-size: 28px !important;
 }
-.nav-item ul li:hover span:nth-child(1){
+.social-item ul li:hover span:nth-child(1){
     transform: translate(0px,-0px);
     opacity: 0.2;
 }
