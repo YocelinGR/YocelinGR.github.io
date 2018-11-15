@@ -245,19 +245,21 @@ header {
     margin: 10px 0 0;
     padding: 0;
     font-size: 15px;
-    color: rgba(206, 216, 230, 0.616);
+    color: white;
 }
 .container-project .box .details .content-box i {
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
+    color: white;
 }
 .container-project .box .details .content-box a {
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
+color: white;
 }
 
 @media screen and (max-width: 1315px){
@@ -279,22 +281,24 @@ header {
     background-size: cover; 
     padding: 10px;
     padding-left: 0;
-    
+    padding-bottom: 35px;
 }
 .imgBox3d a {
-    width: 60%;
+    width: 50%;
     align-content: center;
     justify-content: center;
     margin: auto;
-    font-size: 19px;
-    margin-bottom: 15px;
+    font-size: 16px;
+    margin-bottom: 45px;
+    background-color: rgba(0, 0, 0, 0.521);
+    color:white;
 }
 #contact-me p , #contact-me h3{
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
     color: rgb(0, 0, 0, 0.856);
     text-align: center;
-    padding-top: 5px;
+    padding-top: 35px;
 }
 #contact-me {
     background: rgba(#f8f9fa) !important;
