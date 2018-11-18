@@ -10,20 +10,27 @@
   "repository": "https://github.com/YocelinGR/yocelin-GR-Portafolio.git",
   "author": "YocelinGRomero <garcia_romero.y@hotmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.9.0",
+    "htmlhint": "^0.10.1",
+    "jest": "^23.6.0",
+    "mocha": "^5.2.0",
+    "nodemailer": "^4.6.8",
+    "nyc": "^11.7.1",
+    "opener": "^1.4.3",
+    "xoauth2": "^1.2.0"
+  },
   "devDependencies": {
     "css-aspect-ratio": "^1.0.5",
-    "eslint": "^5.7.0",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "jest": "^23.6.0"
+    "eslint-config-airbnb-base": "^13.1.0"
   },
   "scripts": {
-    "test": "jest --coverage",
     "postinstall": "bower install && grunt build",
-    "start": "nf start"
-  },
-  "dependencies": {
-    "nodemailer": "^4.6.8",
-    "xoauth2": "^1.2.0"
+    "start": "nf start",
+    "htmlhint": "htmlhint *.html test/*.html",
+    "eslint": "eslint --ext .js test/ js/",
+    "test": "npm run test-node && npm run test-browser"
   }
 }
