@@ -186,6 +186,25 @@ header {
     display: block;
     border-collapse: collapse;
 }
+#ardilla {
+    min-width: 360px;
+    padding-left: 25px;
+    background-size: cover;
+    background-position: center;
+}
+#diab {
+    min-width: 395px;
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (max-width: 320px){
+    #ardilla {
+        min-width: 310px;
+    }
+    #diab {
+        min-width: 310px;
+    }
+}
 @media screen and (max-width: 401px){
     .container-project .box {
         position: relative;
@@ -214,6 +233,7 @@ header {
     max-height: 400px;
     background-size: cover;
     justify-content: center;
+    background-position: center;
 }
 .container-project .box:hover .imgBox img {
     transform: scale(1.2);
