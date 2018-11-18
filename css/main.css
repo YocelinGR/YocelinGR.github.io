@@ -187,22 +187,22 @@ header {
     border-collapse: collapse;
 }
 #ardilla {
-    min-width: 360px;
+    min-width: 98%;
     padding-left: 25px;
     background-size: cover;
     background-position: center;
 }
 #diab {
-    min-width: 395px;
+    min-width: 98%;
     background-size: cover;
     background-position: center;
 }
 @media screen and (max-width: 320px){
     #ardilla {
-        min-width: 310px;
+        min-width: 98%;
     }
     #diab {
-        min-width: 310px;
+        min-width: 95%;
     }
 }
 @media screen and (max-width: 401px){
@@ -310,7 +310,7 @@ color: white;
     margin: auto;
     font-size: 16px;
     margin-bottom: 45px;
-    background-color: rgba(0, 0, 0, 0.521);
+    background-color: rgba(0, 0, 0, 0.685);
     color:white;
 }
 #contact-me p , #contact-me h3{
