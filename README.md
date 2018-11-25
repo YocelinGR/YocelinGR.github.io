@@ -80,13 +80,13 @@ Es necesario presentar bocetos de la estructura de cada plantilla del sitio, rea
 
 •	Diseño de baja fidelidad: 
 
-! [Wireframe vista 1: Vista Mobile](https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/6.jpeg?raw=true)
+![Wireframe vista 1: Vista Mobile](https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/6.jpeg?raw=true)
 
-! [Wireframe vista 1: vista Mobile](https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/2.jpeg?raw=true)
+![Wireframe vista 1: vista Mobile](https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/2.jpeg?raw=true)
 
-! [Wireframe vista 1: vista Mobile](https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/1.jpeg?raw=true)
+![Wireframe vista 1: vista Mobile](https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/1.jpeg?raw=true)
 
-![Wireframe vista 2: Vista Tablet(https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/4.jpeg?raw=true)
+![Wireframe vista 2: Vista Tablet](https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/4.jpeg?raw=true)
 
 ![Wireframe vista 2: Vista Tablet](https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/5.jpeg?raw=true)
 
