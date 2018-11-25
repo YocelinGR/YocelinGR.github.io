@@ -18,6 +18,7 @@
     "mocha": "^5.2.0",
     "nodemailer": "^4.6.8",
     "nyc": "^13.1.0",
+    "scrollreveal": "^4.0.5",
     "xoauth2": "^1.2.0"
   },
   "devDependencies": {
