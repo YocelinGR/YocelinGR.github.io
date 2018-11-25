@@ -80,19 +80,27 @@ Es necesario presentar bocetos de la estructura de cada plantilla del sitio, rea
 
 •	Diseño de baja fidelidad: 
 
-! [Wireframe vista 1: Vista Mobile]()
+! [Wireframe vista 1: Vista Mobile](https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/6.jpeg?raw=true)
 
-! [Wireframe vista 2: Vista Tablet]()
+! [Wireframe vista 1: vista Mobile](https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/2.jpeg?raw=true)
 
-! [Wireframe vista 3: Vista PC]()
+! [Wireframe vista 1: vista Mobile](https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/1.jpeg?raw=true)
 
-•	Diseño del sitio final:
+! [Wireframe vista 2: Vista Tablet](https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/4.jpeg?raw=true)
 
-! [Wireframe vista 1: vista Mobile]()
+! [Wireframe vista 2: Vista Tablet](https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/5.jpeg?raw=true)
 
-! [Wireframe vista 2: Vista Tablet]()
+! [Wireframe vista 3: Vista PC](https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/8.jpeg?raw=true)
 
-! [Wireframe vista 3: Vista PC]( )
+! [Wireframe vista 3: Vista PC](https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/11.jpeg?raw=true)
+
+! [Wireframe vista 3: Vista PC](https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/12.jpeg?raw=true)
+
+! [Wireframe vista 3: Vista responsive](https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/10.jpeg?raw=true)
+
+! [Wireframe vista 3: Vista responsive](https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/9.jpeg?raw=true)
+
+! [Wireframe vista 3: Vista responsive](https://github.com/YocelinGR/YocelinGR.github.io/blob/v1.5.0/assets/7.jpeg?raw=true)
 
  5. Desarrollo y maquetación
 
