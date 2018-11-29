@@ -12,7 +12,7 @@ header {
     width: 100%;
 }
 .nav-item:hover {
-    border: 1px solid rgb(#e7e3e2);
+    border: 1px solid rgba(#e7e3e2);
     background: rgba(#e7e3e2);
     cursor: pointer;
 }
@@ -87,7 +87,7 @@ header {
 #about-me {
     width: 100%;
     height: 20%;
-    background: rgb(0, 0, 0, 0.856);
+    background: rgba(0, 0, 0, 0.856);
     text-align: center;
     margin: auto;
     vertical-align: middle;
@@ -115,11 +115,10 @@ header {
 }
 #about-me img {
     padding-top: 14px;
-    border-radius: 50px 50px 25px 25px;
 }
 .card-body {
     font-size: 14px;
-    color: rgb(0, 0, 0, 0.856);
+    color: rgba(0, 0, 0, 0.856);
 }
 #about-me p {
     font-size: 16px;
@@ -166,7 +165,7 @@ header {
     display: inline-block;
 }
 #my-projects {
-    background: rgb(0, 0, 0, 0.856);
+    background: rgba(0, 0, 0, 0.856);
     height: 60%;
 }
 #my-projects h2 {
@@ -318,7 +317,7 @@ color: white;
 #contact-me p , #contact-me h3{
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
-    color: rgb(0, 0, 0, 0.856);
+    color: rgba(0, 0, 0, 0.856);
     text-align: center;
     padding-top: 35px;
 }
