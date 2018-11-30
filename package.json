@@ -1,5 +1,5 @@
 {
-  "name": "YocelinGR.github.io",
+  "name": "yocelingr.github.io",
   "version": "1.0.0",
   "engines": {
     "npm": "6.2.0",
@@ -7,7 +7,10 @@
   },
   "description": "This is my Front End Developer portfolio, in this project I will demostrate my programming habilities and show my background and Laboratoria´s history trougth my best worked projects ",
   "main": "index.js",
-  "repository": "https://github.com/YocelinGR/yocelin-GR-Portafolio.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YocelinGR/yocelin-GR-Portafolio.git"
+  },
   "author": "YocelinGRomero <garcia_romero.y@hotmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -33,5 +36,17 @@
     "eslint": "eslint --ext .js test/ js/",
     "test-node": "nyc mocha ./test/headless.js && nyc report --reporter=html",
     "test": "npm run test-node && npm run test-browser"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/YocelinGR/yocelin-GR-Portafolio/issues"
+  },
+  "homepage": "https://github.com/YocelinGR/yocelin-GR-Portafolio#readme",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "projects"
+  ]
 }
