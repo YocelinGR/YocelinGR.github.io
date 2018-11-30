@@ -2,8 +2,8 @@
   "name": "yocelingr.github.io",
   "version": "1.0.0",
   "engines": {
-    "npm": "6.2.0",
-    "node": "8.11.3"
+    "npm": "6.4.1",
+    "node": "11.3.0"
   },
   "description": "This is my Front End Developer portfolio, in this project I will demostrate my programming habilities and show my background and Laboratoria´s history trougth my best worked projects ",
   "main": "index.js",
